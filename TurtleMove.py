@@ -2,19 +2,19 @@ import turtle
 
 def turtle_move_w(): #turtle 위로 이동
     turtle.setheading(90)
-    turtle.forward(90)
+    turtle.forward(50)
     turtle.stamp()
 def turtle_move_s(): #turtle 아래로 이동
     turtle.setheading(-90)
-    turtle.forward(90)
+    turtle.forward(50)
     turtle.stamp()
 def turtle_move_a(): #turtle 왼쪽 이동
     turtle.setheading(180)
-    turtle.forward(90)
+    turtle.forward(50)
     turtle.stamp()
 def turtle_move_d(): #turtle 오른쪽 이동
     turtle.setheading(-360)
-    turtle.forward(90)
+    turtle.forward(50)
     turtle.stamp()
 def turtle_restart(): #esc를 눌러 재시작
     turtle.reset()
